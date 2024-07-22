@@ -1,0 +1,14 @@
+Browser vs Nodejs
+In the browser, most of the time what you are doing is interacting with the
+DOM, or other Web Platform APIs like Cookies. Those do not exist in Node.js.
+ You don't have the document, window and all the other objects that are provided by the browser.
+And in the browser, we don't have all the nice APIs that Node.js provides through its modules, 
+like the filesystem access functionality.
+
+In nodejs u can control the environmnent-unless u r building an opensource app that anyone can
+deploy from anywhere, you know which version of nodejs will run he app on. Compared to the browser
+u dont get to choose what broswer ur vistors choose to use.
+
+nodejs perfoms both commonjS and ES module syst while in the broswer we are starting to see the 
+ES modules stardard being implemented meaning you can use both require() and import in Nodejs
+but in browser u are restricted to import
