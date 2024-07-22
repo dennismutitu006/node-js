@@ -1,0 +1,28 @@
+Difference b2n deployment and development environment in node.js
+
+Development environment
+this is where programmers write, test and debug their code.
+characteristics
+local setup- usually on the developers machine.
+hot reloading - automatic updates when the code changes.
+
+when to use
+During active coding and feature dvp
+for running unittest and intergration tests
+when experimenting with new libraries or features
+
+Deployment/ production environment
+where the app runs for end users.its optimized for perfomance, security & stability
+
+Key characteristics
+
+Remote servers: hosted on cloud platforms and data centres
+security measures: firewalls, encrypted connections
+production dependencies only: no devp tools included
+monitoring and logging -for tracking perfomance and errors 
+
+usage
+when the app is ready for users
+for final testing in a production0like environ(staging)
+when performing load tests or security audits
+
