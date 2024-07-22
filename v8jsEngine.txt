@@ -1,0 +1,10 @@
+V8 is the name of the js engine that powers Google chrome.
+its the thing that takes our js and executes it while browing with chrome.
+
+This engine is independ of the brwoser it's hosted.which enabled the rise of
+ nodejs 
+
+js is generally considered as an interpreted language, but modern js engines no longer 
+just interprate, they compile it.
+js is internally compiled by v8 with just-in-time (JIT) compilation to speed up the execution.
+
