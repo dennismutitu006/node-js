@@ -7,3 +7,8 @@ sudo apt-get update
 sudo apt install redis
 
 Redis will start automatically and it will restart at boot time.
+Command used to start redis server
+/etc/init.d/redis-server {start|stop|restart|force-reload|status}
+
+installing node-redis
+npm install redis
